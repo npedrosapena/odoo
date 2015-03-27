@@ -1,0 +1,35 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 18-mar-2015, 11:04:36
+    Author     : nelson
+*/
+
+
+.bg-blue {
+  background: #3498db;
+}
+.bg-green {
+  background: #2ecc71;
+}
+.h2 {
+  color: white;
+}
+body {
+  background-color: #002545;
+}
+h1 {
+  color: #002545;
+  text-shadow: 1px 1px 1px black;
+}
+span {
+  border: 2px solid black;
+  box-shadow: 2px 2px 2px red;
+  background-color: #002545;
+}
+
+.dummy-boy { background-image: url("../img/perrete.jpg"); width:700px; height:700px; }
+.dummy-girl { background-image: url("../img/hipi.jpg"); width:400px; height:400px;}
