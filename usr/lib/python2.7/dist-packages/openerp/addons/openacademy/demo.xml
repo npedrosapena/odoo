@@ -1,11 +1,8 @@
 <openerp>
     <data>
-                <record model="openacademy.course" id="course0">
+        <record model="openacademy.course" id="course0">
             <field name="name">Course 0</field>
-            <field name="description">Course 0's description
-
-Can have multiple lines
-            </field>
+            <field name="description">Course 0's description Can have multiple lines</field>
         </record>
         <record model="openacademy.course" id="course1">
             <field name="name">Course 1</field>
@@ -15,6 +12,14 @@ Can have multiple lines
             <field name="name">Course 2</field>
             <field name="description">Course 2's description</field>
         </record>
+        
+        <record model="ir.actions.act_window" id="action_list_ideas">
+            <field name="name">Ideas</field>
+            <field name="res_model">idea.idea</field>
+            <field name="view_mode">tree,form</field>
+        </record>
+        <menuitem id="menu_ideas" parent="menu_root" name="Ideas" sequence="10"
+                  action="action_list_ideas"/>
 
         <!--  -->
         <!--   <record id="object0" model="openacademy.openacademy"> -->
