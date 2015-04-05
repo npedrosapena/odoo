@@ -8,6 +8,10 @@ class Course(models.Model):
 
     name = fields.Char(string="Title", required=True)
     description = fields.Text()
+    
+    start_date = fields.Date()
+    duration = fields.Float(digits=(6, 2), help="Duration in days")
+    seats = fields.Integer(string="Number of seats")
 
 
 
