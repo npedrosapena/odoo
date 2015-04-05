@@ -19,7 +19,14 @@ class Session(models.Model):
     seats = fields.Integer(string="Number of seats")
 
 
+class MinimalModel(models.Model):
+    _name = 'test.model'
+    
 
+class LessMinimalModel(models.Model):
+    _name = 'test.model2'
+
+    name = fields.Char(required=True)
 
 
 
